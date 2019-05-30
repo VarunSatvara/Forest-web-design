@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'peace_sans';
+    src: url('../fonts/peace_sans_webfont-webfont.woff2') format('woff2'),
+        url('../fonts/peace_sans_webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body,
 html {
     height: 100%;
@@ -100,20 +109,20 @@ nav ul li ul li a:hover {
     color: #fff;
     text-align: center;
     font-size: 12px;
+    font-weight: 200;
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
-    padding-top: 150px;
+    padding: 150px 0px 20px 0px;
 }
 
 
 .headcentre h1 {
     color: #fff;
-    font-family: sans-serif;
-    font-weight: 900;
-    font-size: 110px;
-    letter-spacing: .2px;
+    font: 400 130px/1 'Peace_Sans';
+    letter-spacing: .5px;
     text-align: center;
-    margin: 0;
+    text-transform: uppercase;
+    margin: 0 !important;
 }
 
 .headcentre h2 {
@@ -122,7 +131,7 @@ nav ul li ul li a:hover {
     font-family: "Nunito Sans", sans-serif;
     font-size: 18px;
     font-weight: 200;
-    margin: 0;
+    margin: 0 !important;
 }
 
 .headbtn {
@@ -182,4 +191,139 @@ nav ul li ul li a:hover {
 .read {
     padding-left: 5px;
     text-decoration-line: underline;
+}
+
+.sectionthree {
+    overflow: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, .16)
+}
+
+.headthird {
+    width: 80%;
+    margin: auto;
+    padding: 100px 0px 20px 0px;
+}
+
+.headthird h5 {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+
+}
+
+.headthird h3 {
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 45px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.photobox {
+    width: 100%;
+    overflow: auto;
+}
+
+.imagebox {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+
+.photodiv {
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin: 0;
+}
+
+.photoboxone {
+    height: 190px;
+    width: 100%;
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-position: left;
+    display: table;
+    background-attachment: fixed;
+}
+
+.photoboxtwo {
+    height: 190px;
+    width: 100%;
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-position: top;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+.photoboxthird {
+    height: 190px;
+    width: 100%;
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: table;
+    background-attachment: fixed;
+}
+
+.icon {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.docfirst {
+    height: 250px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding: 50px 0 50px 0;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, .07);
+}
+
+.docfirst h2 {
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24.2px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 5px 0;
+
+}
+
+.docfirst h4 {
+    color: #000000;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 24.75px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 3px 0 3px 0;
+}
+
+.docfirst h5 {
+    color: #000000;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 20px 0;
 }
