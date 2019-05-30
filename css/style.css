@@ -196,7 +196,7 @@ nav ul li ul li a:hover {
 .sectionthree {
     overflow: auto;
     width: 100%;
-    background:#f2f4ec;
+    background: #f2f4ec;
 }
 
 .headthird {
@@ -356,7 +356,42 @@ nav ul li ul li a:hover {
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     padding: 15px 30px 15px 30px;
-    border: 1px solid #aeaeae;;
+    border: 1px solid #aeaeae;
+    ;
     border-radius: 30px 30px 30px 30px;
     background-color: #f2f4ec;
+}
+
+.touchbtn:hover {
+    background-color: lightsteelblue;
+}
+
+.sectionfour {
+    overflow: auto;
+    width: 100%;
+    background-color: #fff;
+    padding:80px 0 30px 0;
+}
+
+.headtitle {
+    margin: auto;
+    overflow: auto;
+}
+
+.headtitle h2 {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.headtitle h5 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
 }
