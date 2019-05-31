@@ -370,7 +370,7 @@ nav ul li ul li a:hover {
     overflow: auto;
     width: 100%;
     background-color: #fff;
-    padding:80px 0 30px 0;
+    padding: 80px 0 30px 0;
 }
 
 .headtitle {
@@ -391,7 +391,154 @@ nav ul li ul li a:hover {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
+    ;
     font-weight: 600;
     letter-spacing: 1px;
+    margin: 0;
+}
+
+.listitem {
+    width: 100%;
+    overflow: auto;
+    padding: 20px 0px 10px 0px;
+}
+
+.list {
+    width: 30%;
+    margin: auto;
+    background-color: rebeccapurple;
+}
+
+.list li {
+    float: left;
+    list-style: none;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.photogallery {
+    width: 100%;
+    overflow: auto;
+}
+
+.gallery {
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    margin: 0;
+}
+
+.galleryone {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallerysec {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallerythird {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagegallery {
+    width: 100%;
+    overflow: auto;
+}
+
+.sectiongallery {
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    margin: 0;
+}
+
+.galleryfirst {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallerytwo {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallerythree {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.introbox {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 150px 0 150px 0;
+    background: #f2f4ec;
+}
+
+.creativebox {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+
+}
+
+.iconbox {
+    float: left;
+    width: 33.3%;
+    margin: 0;
+
+}
+
+.iconimg {
+    height: 70px;
+    width: 70px;
+    padding-right: 5px;
+}
+
+.iconfont {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.iconfont h5 {
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 35px;
+}
+
+.iconfont p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: "Nunito Sans", sans-serif;
     margin: 0;
 }
