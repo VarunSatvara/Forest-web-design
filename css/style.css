@@ -358,7 +358,6 @@ nav ul li ul li a:hover {
     font-family: "Montserrat", sans-serif;
     padding: 15px 30px 15px 30px;
     border: 1px solid #aeaeae;
-    ;
     border-radius: 30px 30px 30px 30px;
     background-color: #f2f4ec;
 }
@@ -392,7 +391,6 @@ nav ul li ul li a:hover {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
-    ;
     font-weight: 600;
     letter-spacing: 1px;
     margin: 0;
@@ -497,7 +495,7 @@ nav ul li ul li a:hover {
     overflow: auto;
     margin: 0;
     padding: 150px 0 150px 0;
-    background: #f2f4ec;
+    background-color: #f2f4ec;
 }
 
 .creativebox {
@@ -682,7 +680,6 @@ nav ul li ul li a:hover {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    opacity: 2;
     overflow: auto;
     display: inline-block;
     display: table;
@@ -731,7 +728,7 @@ nav ul li ul li a:hover {
 }
 
 .bgtext h4 {
-    color:#fff;
+    color: #fff;
     font-size: 18px;
     letter-spacing: normal;
     font-weight: 100;
@@ -740,4 +737,70 @@ nav ul li ul li a:hover {
     line-height: 20px;
     padding-top: 40px;
     margin: 0;
+}
+
+.sectionnine {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    background-color: #f2f4ec;
+}
+
+.socialhead {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 90px 0 40px 0;
+
+}
+
+.centertext h5 {
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    line-height: 20px;
+    
+}
+
+.centertext h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    letter-spacing: -1px;
+    text-align: center;
+    margin: 0;
+}
+.icongroup{
+    width:80%;
+    margin: auto;
+    overflow: auto;
+    padding: 70px 0 30px 0;
+}
+.bigfont{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+.flaticon{
+    height: 70px;
+    width: 70px;
+    margin: 0;
+   
+}
+.bigfont h5{
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+     line-height: 50px;
+    
 }
