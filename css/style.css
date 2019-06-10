@@ -930,3 +930,93 @@ nav ul li ul li a:hover {
 .msgbtn:hover {
     border: 1px solid #aeaeae;
 }
+
+.sectioneleven {
+    overflow: auto;
+    margin: 0;
+}
+
+.img1 {
+    text-align: center;
+    padding: 70px 0 70px 0px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    padding: 0px 50px 0px 50px;
+}
+
+.footer {
+    overflow: auto;
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    padding: 40px 0 40px 0;
+}
+
+.footercenter {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.ftfont {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.footerone {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.footertwo h5 {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.tableleft {
+    float: left;
+}
+
+.tableright {
+    float: right;
+    margin: 0;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.footerright {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.ul {
+    text-decoration: underline;
+}
+
+.ul:hover {
+    visibility: hidden;
+}
