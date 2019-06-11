@@ -107,7 +107,7 @@ html {
 .headcentre {
     height: 20%;
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
@@ -146,8 +146,9 @@ html {
     text-align: center;
     padding-top: 40px;
 }
-.headbtn a{
-    text-decoration: none;    
+
+.headbtn a {
+    text-decoration: none;
 }
 
 .button {
@@ -420,7 +421,8 @@ html {
     width: 30%;
     margin: auto;
 }
-.list ul{
+
+.list ul {
     overflow: auto;
 }
 
@@ -531,7 +533,7 @@ html {
 .iconimg {
     height: 70px;
     width: 70px;
-    padding-right: 5px;
+    margin: 0;
 }
 
 .iconfont {
@@ -546,7 +548,7 @@ html {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
     margin: 0;
-    line-height: 35px;
+    padding-left: 20px;
 }
 
 .iconfont p {
@@ -556,6 +558,7 @@ html {
     letter-spacing: normal;
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
+    padding: 10px 20px 20px 20px;
 }
 
 .sectionsix {
@@ -687,6 +690,7 @@ html {
     font-family: "Nunito Sans", sans-serif;
     line-height: 28px;
     margin: 0;
+    padding: 0px 40px 0px 40px;
 }
 
 .sectioneight {
