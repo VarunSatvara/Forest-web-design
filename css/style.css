@@ -435,77 +435,72 @@ html {
     letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
 }
-
 .photogallery {
     width: 100%;
     overflow: auto;
+    margin: 0;
+
 }
 
 .gallery {
     width: 33.3%;
+    height: 300px;
     float: left;
     padding: 10px;
+}
+
+.item {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.item > img {
+    width: 100%;
+}
+
+.item:hover > img {
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    left: 0;
+    z-index: 5;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    opacity: 0;
+}
+
+.item:hover .overlay {
+    transition-duration: 2s;
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+.overlay h4 {
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    padding: 8px 0px;
+    font-weight: 700;
+    letter-spacing: normal;
 }
 
-.galleryone {
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.gallerysec {
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/2.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.gallerythird {
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/3.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.imagegallery {
-    width: 100%;
-    overflow: auto;
-}
-
-.sectiongallery {
-    width: 33.3%;
-    float: left;
-    padding: 10px;
+.overlay h5 {
     margin: 0;
-}
-
-.galleryfirst {
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/4.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.gallerytwo {
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/5.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.gallerythree {
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/6.jpg);
-    background-size: cover;
-    background-position: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: normal;
 }
 
 .sectionfive {
